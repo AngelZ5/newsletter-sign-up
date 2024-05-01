@@ -1,0 +1,105 @@
+body {
+  background-color: #36384d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: absolute;
+  top: 0px;
+  color: white;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+main {
+  background-color: #ffffff;
+  height: 519px;
+  width: 722px;
+  border-radius: 20px;
+}
+
+main img {
+  width: 325px;
+  height: 475px;
+  position: relative;
+  bottom: 360px;
+  left: 35px;
+}
+
+main h1 {
+  font-size: 2.8rem;
+  font-family: "roboto";
+  font-weight: 700;
+  margin-top: 80px;
+  margin-left: 50px;
+  color: #262b46;
+}
+
+main p {
+  width: 360px;
+  margin-left: 50px;
+  font-family: "roboto";
+  font-size: 14px;
+}
+
+main ul {
+  margin-left: 30px;
+  line-height: 25px;
+  list-style-image: url(./images/icon-list.svg);
+  font-family: "roboto";
+  font-size: 0.9rem;
+}
+
+.info {
+  color: #222743;
+  font-family: "roboto";
+  font-weight: 700;
+  margin-left: 40px;
+  position: relative;
+  top: 5px;
+  font-size: 12px;
+}
+
+.email-box {
+  margin-left: 40px;
+  width: 282px;
+  height: 35px;
+  border-radius: 5px;
+  border-width: 1px;
+  border-style: groove;
+  text-align: left;
+  opacity: 60%;
+  padding-left: 15px;
+}
+#submit {
+  position: relative;
+  bottom: 430px;
+  margin-left: 40px;
+  text-align: center;
+  background-color: #222743;
+  width: 300px;
+  height: 40px;
+  border-radius: 5px;
+  border-style: none;
+  color: white;
+  font-family: "roboto";
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#submit:hover {
+  background-color: rgb(255, 83, 121);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 83, 121, 1) 0%,
+    rgba(255, 105, 58, 1) 100%
+  );
+}
